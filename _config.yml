@@ -1,0 +1,6 @@
+url: "https://unruffled-curran-3e27a7.netlify.com"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
