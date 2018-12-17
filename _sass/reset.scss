@@ -1,6 +1,8 @@
+@import 'variables';
+
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: $font-size;
 }
 
 *, *:before, *:after {
