@@ -1,0 +1,14 @@
+body {
+  background-color: orange;
+}
+
+.mail {
+  color: rgb(232, 166, 43);
+  font-size: 6rem;
+  font-weight: 900;
+  font-family: sans-serif;
+
+  text-align: center;
+
+  margin-top: 20vw;
+}
