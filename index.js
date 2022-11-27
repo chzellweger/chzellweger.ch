@@ -14,5 +14,5 @@ window.addEventListener('load', function () {
   const interval = setInterval(() => {
     let colorCombination = colorCombinations[Math.floor(Math.random() * 4)]
     document.querySelector('body').style.backgroundColor = colorCombination[0]
-  }, 5000)
+  }, 10000)
 })
