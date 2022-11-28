@@ -8,8 +8,11 @@ const colorCombinations = [
 
 window.addEventListener('load', function () {
   console.log('hello')
-  let colorCombination = colorCombinations[Math.floor(Math.random() * 4)]
-  document.querySelector('body').style.backgroundColor = colorCombination[0]
+
+  const timeout = setTimeout(() => {
+    let colorCombination = colorCombinations[Math.floor(Math.random() * 4)]
+    document.querySelector('body').style.backgroundColor = colorCombination[0]
+  }, 10000)
 
   const interval = setInterval(() => {
     let colorCombination = colorCombinations[Math.floor(Math.random() * 4)]
