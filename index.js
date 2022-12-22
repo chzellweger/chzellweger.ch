@@ -25,7 +25,7 @@ async function test() {
   const word = data.data[1].ctx_[1]
   console.log(word)
 
-  let sentence = 'Christian Zellweger'
+  let sentence = ''
 
   word.forEach((el,i) => {
     if (i === 0) return
@@ -35,7 +35,7 @@ async function test() {
   })
 
   console.log(sentence)
-  document.getElementsByClassName('content')[0].innerText = sentence
+  document.getElementsByClassName('desc')[0].innerText = sentence
 }
 
 test()
