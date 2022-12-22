@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
 })
 
 function test() {
-  fetch('/.netlify/functions/api').then(res => res.json()).then(json => console.log(json))
+  fetch('/.netlify/functions/api').then(res => res.text()).then(json => console.log(json))
 }
 
 test()

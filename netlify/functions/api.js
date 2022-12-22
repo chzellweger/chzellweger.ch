@@ -15,7 +15,7 @@ const genre = 'Wissenschaft'
 const format = 'full'
 const sort = 'random'
 const limit = '100'
-const view = 'json'
+const view = 'csv'
 
 const url = `${API_ENDPOINT}/?q=${query}&corpus=${corpus}&date-start=${dateStart}&date-end=${dateEnd}&genre=${genre}&format=${format}&sort=${sort}&limit=${limit}&view=${view}`
 
