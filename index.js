@@ -19,3 +19,9 @@ window.addEventListener('load', function () {
     document.querySelector('body').style.backgroundColor = colorCombination[0]
   }, 10000)
 })
+
+function test() {
+  fetch('/.netlify/functions/api').then(res => res.json).then(json => console.log(json))
+}
+
+test()
