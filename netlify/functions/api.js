@@ -18,6 +18,9 @@ const url = `${API_ENDPOINT}/?q=${query}&corpus=${corpus}&date-start=${dateStart
 
   let response
   try {
+    return 'hello world from api'
+
+
     response = await fetch(url).then(res.text()).then(json => console.log(json))
     console.log(response)
     // handle response
