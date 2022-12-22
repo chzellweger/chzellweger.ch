@@ -22,6 +22,7 @@ window.addEventListener('load', function () {
 
 function test() {
   fetch('/.netlify/functions/api').then(res => res.text()).then(json => console.log(json))
+  fetch('https://api.thecatapi.com/v1/images/search').then(res => res.json()).then(json => console.log(json))
 }
 
 test()

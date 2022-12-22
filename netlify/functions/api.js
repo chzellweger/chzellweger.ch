@@ -2,8 +2,6 @@
 // const fetch = require('node-fetch')
 import fetch from 'node-fetch'
 
-console.log({fetch})
-
 exports.handler = async (event, context) => {
 
 const API_ENDPOINT = 'https://www.dwds.de/r'
