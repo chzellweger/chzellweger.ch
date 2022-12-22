@@ -1,3 +1,6 @@
+
+const fetch = require('node-fetch')
+
 exports.handler = async (event, context) => {
 
 const API_ENDPOINT = 'https://www.dwds.de/r'
