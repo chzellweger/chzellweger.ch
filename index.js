@@ -20,9 +20,22 @@ window.addEventListener('load', function () {
   }, 10000)
 })
 
-function test() {
-  fetch('/.netlify/functions/api').then(res => res.text()).then(json => console.log(json))
-  fetch('https://api.thecatapi.com/v1/images/search').then(res => res.json()).then(json => console.log(json))
+async function test() {
+  const data = await fetch('/.netlify/functions/api').then(res => res.json()).catch(e => console.log(e))
+  const word = data.data[1].ctx_[1]
+  console.log(word)
+
+  let sentence = 'Christian Zellweger'
+
+  word.forEach((el,i) => {
+    if (i === 0) return
+
+    console.log(el.w)
+    sentence += el.ws == 1 ? ` ${el.w}` : `${el.w}`
+  })
+
+  console.log(sentence)
+  document.getElementsByClassName('content')[0].innerText = sentence
 }
 
 test()
