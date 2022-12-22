@@ -1,5 +1,4 @@
 
-// const fetch = require('node-fetch')
 import fetch from 'node-fetch'
 
 exports.handler = async (event, context) => {
@@ -19,7 +18,7 @@ const url = `${API_ENDPOINT}/?q=${query}&corpus=${corpus}&date-start=${dateStart
 
   let response
   try {
-    response = await fetch(url).then(res.json()).then(json => console.log(json))
+    response = await fetch(url).then(res.text()).then(json => console.log(json))
     console.log(response)
     // handle response
   } catch (err) {
