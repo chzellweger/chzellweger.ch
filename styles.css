@@ -9,8 +9,6 @@ body {
   font-weight: 400;
   font-family: 'Heebo', sans-serif;
 
-  text-align: center;
-
   max-width: 80%;
   margin: 0 auto;
   margin-top: 20vw;
@@ -23,8 +21,22 @@ body {
   font-weight: 400;
   max-width: 80%;
   margin: 0 auto;
+  min-height: 1vh;
 }
 
 .desc {
   color:rgb(59, 58, 58);
+}
+
+.source {
+  font-size: 0.6rem;
+ 
+}
+
+.real-name {
+  margin-top: 1rem;
+}
+
+.find-out {
+  text-decoration: underline;
 }

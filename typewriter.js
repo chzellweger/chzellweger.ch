@@ -54,7 +54,7 @@ function tw (instance) {
       // (C3-3) PAUSE THEN CLEAR TEXT
       else {
         instance.timer = setTimeout(() => {
-          instance.timer = setInterval(instance.typist, instance.backward);
+          // instance.timer = setInterval(instance.typist, instance.backward);
         }, instance.pause);
       }
     }
@@ -64,19 +64,4 @@ function tw (instance) {
   instance.timer = setInterval(instance.typist, instance.forward);
 }
 
-tw({
-  // (C1) REQUIRED
-  target : document.getElementById("demo"), // target html container
-  //text : "Wow. Much text. Very paragraph. Such contents.", // text
-  text : [
-  "ist stv. Leiter des Ressorts Desk/Interaktion der Berner Tageszeitung «Berner Zeitung» / «Der Bund». Er ist seit 2013 in Bern als Journalist tätig",
-  ],
-
-  // (C2) OPTIONAL
-  forward : 80, // delay between each character, default 100 ms
-  backward : 40, // delay between each character, default 50 ms
-  pause : 1500, // pause before next cycle, default 1 sec
-  loop : true, // loop typewriter effect, default true
-  cursor : true // add fake cursor? default true
-});
-
+window.tw = tw
