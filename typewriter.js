@@ -54,7 +54,7 @@ function tw (instance) {
       // (C3-3) PAUSE THEN CLEAR TEXT
       else {
         instance.timer = setTimeout(() => {
-          // instance.timer = setInterval(instance.typist, instance.backward);
+          instance.timer = setInterval(instance.typist, instance.backward);
         }, instance.pause);
       }
     }

@@ -5,7 +5,7 @@ body {
 
 .mail {
   color: rgb(232, 166, 43);
-  font-size: 5vw;
+  font-size: 2rem;
   font-weight: 400;
   font-family: 'Heebo', sans-serif;
 
@@ -17,24 +17,24 @@ body {
 }
 
 .content {
+  font-size: 1.5rem;
   font-family: 'Telex';
   font-weight: 400;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto;
   min-height: 1vh;
 }
 
-.desc {
+.desc, .real-desc {
   color:rgb(59, 58, 58);
 }
 
 .source {
   font-size: 0.6rem;
- 
 }
 
 .real-name {
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .find-out {
