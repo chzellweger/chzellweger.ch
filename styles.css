@@ -58,3 +58,9 @@ body {
 .e-mail {
   color:rgb(59, 58, 58);
 }
+
+.back {
+  text-decoration: underline;
+  color: #0000EE;
+  cursor: pointer;
+}
