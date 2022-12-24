@@ -25,8 +25,16 @@ body {
   min-height: 1vh;
 }
 
+.description {
+  min-height: 70vh;
+}
+
 .desc, .real-desc {
   color:rgb(59, 58, 58);
+}
+
+.real-desc {
+  display: none;
 }
 
 .source {
