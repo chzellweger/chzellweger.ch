@@ -64,3 +64,23 @@ body {
   color: #0000EE;
   cursor: pointer;
 }
+
+@media screen and (min-width: 700px) {
+  .content, .description, .desc, .real-desc, .name, .real-name, .find-out, .e-mail {
+    font-size: 2.5rem;
+  }
+
+  .back, .source {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .content, .description, .desc, .real-desc, .name, .real-name, .find-out, .e-mail {
+    font-size: 3rem;
+  }
+
+  .back, .source {
+    font-size: 2rem;
+  }
+}

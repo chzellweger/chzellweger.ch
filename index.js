@@ -54,10 +54,7 @@ async function runTypewriter() {
 document
   .getElementsByClassName('find-out')[0]
   .addEventListener('click', function () {
-    // const desc =
-    //   'ist stellvertretender Leiter des Ressorts Desk und Interaktion der gemeinsamen Redaktion der Berner Tageszeitungen «BernerZeitung» und «Der Bund». Er ist seit 2013 in Bern als Journalist tätig, unter anderem als Spezialist für Daten und digitales Storytelling. Er studierte Kommunikation an der ZHAW in Winterthur und hat einen CAS-Abschluss in Front End Engineering der HSR Rapperswil. Zuvor arbeitete er bei der Nachrichtenagentur SDA sowie als freier Mitarbeiter für diverse Lokalzeitungen im Raum Zürich.'
     document.getElementsByClassName('real-desc')[0].style.display = 'block'
-
 
     document.getElementsByClassName('fake-desc')[0].style.display = 'none'
     document.getElementsByClassName('real-name')[0].style.display = 'none'
@@ -70,10 +67,7 @@ window.addEventListener('load', function () {
 document
   .getElementsByClassName('back')[0]
   .addEventListener('click', function () {
-    // const desc =
-    //   'ist stellvertretender Leiter des Ressorts Desk und Interaktion der gemeinsamen Redaktion der Berner Tageszeitungen «BernerZeitung» und «Der Bund». Er ist seit 2013 in Bern als Journalist tätig, unter anderem als Spezialist für Daten und digitales Storytelling. Er studierte Kommunikation an der ZHAW in Winterthur und hat einen CAS-Abschluss in Front End Engineering der HSR Rapperswil. Zuvor arbeitete er bei der Nachrichtenagentur SDA sowie als freier Mitarbeiter für diverse Lokalzeitungen im Raum Zürich.'
     document.getElementsByClassName('real-desc')[0].style.display = 'none'
-
 
     document.getElementsByClassName('fake-desc')[0].style.display = 'block'
     document.getElementsByClassName('real-name')[0].style.display = 'inline'
