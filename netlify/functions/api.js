@@ -10,7 +10,7 @@ const dateEnd = '1999'
 const genre = ['Belletristik', 'Wissenschaft', 'Gebrauchsliteratur', 'Zeitung'][2]
 const format = 'full'
 const sort = 'random'
-const limit = '500'
+const limit = '20'
 
 const view = 'json'
 const fetchResolver = 'json'
